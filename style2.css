@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(135deg, #153677, #4e085f);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    display: grid;
+    display: block;
+    margin: 20px 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* 100% of the viewport height */
+}
+
+.box {
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
